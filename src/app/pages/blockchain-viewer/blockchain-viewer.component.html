@@ -4,6 +4,7 @@
 </div>
 
 <div class="container" style="overflow-x: scroll;white-space: nowrap;">
+	<!--Loops through all the blocks and displays each one-->
 	<app-block-view 
 		*ngFor="let block of blocks" 
 		[block]="block" 
@@ -17,6 +18,7 @@
 <div class="container">
 	<h1>Block {{ getBlockNumber(selectedBlock) }} Transactions</h1>
 
+	<!--Loops through all the transactions of one block and displays them-->
 	<app-transactions-table
 		[transactions]="selectedBlock.transactions"
 	></app-transactions-table>

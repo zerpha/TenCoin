@@ -21,6 +21,7 @@ export class MakeTransactionComponent implements OnInit {
   ngOnInit() {
   }
 
+  // calls functions in Transaction class in myBlockchain.js to do the transfer
   createTransaction() {
     // Set the FROM address and sign the transaction
     this.newTransaction.fromAddress = this.ownWalletKey.publicKey;
