@@ -16,6 +16,7 @@ export class PendTransactionComponent implements OnInit {
     this.pendingTransactions = blockchainService.getPendingTransactions();
   }
 
+  // Used to see if check if there is a concurrent pending transaction, see if transaction was made successfully
   ngOnInit() {
     if (this.route.snapshot.paramMap.get('addedTx')) {
       this.justAddedTx = true;

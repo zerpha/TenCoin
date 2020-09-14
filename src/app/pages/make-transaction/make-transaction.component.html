@@ -1,8 +1,9 @@
+<!--Transactions page where you create a transaction to have it pending-->
 <div class="container">
 	<h1>Make a Transaction</h1>
 
 	<br>
-
+	<!--your wallet-->
 	<div class="form-group">
 	    <label for="fromAddress">From address</label>
 	    <input type="text" class="form-control" id="fromAddress" aria-describedby="fromAddressHelp" [(ngModel)]="ownWalletKey.publicKey" disabled>
@@ -10,7 +11,7 @@
 	    	Your wallet address. Cannot be changed.
 	    </small>
   	</div>
-
+	<!--Recepient wallet-->
   	<div class="form-group">
 	    <label for="toAddress">To address</label>
 	    <input type="text" class="form-control" id="toAddress" aria-describedby="toAddressHelp" [(ngModel)]="newTransaction.toAddress">
@@ -18,7 +19,7 @@
 	    	Recepient Address
 	    </small>
   	</div>
-
+	<!--coins to transfer-->
   	<div class="form-group">
 	    <label for="amount">Amount</label>
 	    <input type="number" class="form-control" id="amount" aria-describedby="amountHelp" [(ngModel)]="newTransaction.amount">

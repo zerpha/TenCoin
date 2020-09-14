@@ -1,3 +1,4 @@
+<!--Navigation Bar-->
 <nav class="navbar navbar-dark" style="background-color: black;">
   <a class="navbar-brand" routerLink="/">
     <img src="assets/images/10-cent.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -24,17 +25,21 @@
   </div>
 </nav>
 
+<!--Bacground Animation from vanta.js-->
   <div id="vantaBackground"></div>
   <br>
 
+  <!--Alert for source code-->
   <div class="container">
     <div class="alert alert-primary alert-dismissible fade show" role="alert">
-      <a href="https://github.com/Savjee/savjeecoin-frontend">Github: Source code.</a>
+      <a href="https://github.com/zerpha/TenCoin">Github: Source code.</a>
     </div>
   </div>
 
+  <!--Routing points to the blockchain viewer by default which shows the blockchain-->
   <router-outlet></router-outlet>
 
+  <!--footer with link to source code-->
   <footer class="text-muted text-center" style="margin-top: 100px; margin-bottom: 50px;">
-    <small><a href="https://github.com/Savjee/savjeecoin-frontend" target="_blank">Source code</a></small>
+    <small><a href="https://github.com/zerpha/TenCoin" target="_blank">Source code</a></small>
   </footer>

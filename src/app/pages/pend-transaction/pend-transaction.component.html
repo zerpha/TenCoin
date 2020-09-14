@@ -1,3 +1,4 @@
+<!--Page to show pending transactions, only appears if there are any transactions pending-->
 <div class="container">
 
 	<div class="alert alert-success" role="alert" *ngIf="justAddedTx">
@@ -7,6 +8,7 @@
 	<h1>Pending transactions</h1>
 	<p>The transactions below will be in the next block. Next block is created when you start mining.</p>
 
+	<!--Loops through to show all transactions pending in a table-->
 	<app-transactions-table
 		[transactions]="pendingTransactions">
 	</app-transactions-table>
