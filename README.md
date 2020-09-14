@@ -3,7 +3,8 @@
 This application is meant to visualize and interact with a blockchain.
 This project was for me to see the basics in cryptocurrency and blockchains.
 It allowed me to see the process in seeing the basics structure of a blockchain,
-mining blocks, as well as how new blocks are formed.
+mining blocks, as well as how new blocks are formed. I used AngularJS to make the 
+interactions and visuals for the block.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
