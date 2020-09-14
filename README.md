@@ -1,5 +1,10 @@
 # TenCoin
 
+This application is meant to visualize and interact with a blockchain.
+This project was for me to see the basics in cryptocurrency and blockchains.
+It allowed me to see the process in seeing the basics structure of a blockchain,
+mining blocks, as well as how new blocks are formed.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
 ## Development server
