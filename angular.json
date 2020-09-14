@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [              
+              "src/app/vanta/vendor/three.r119.min.js",           
+              "src/app/vanta/dist/vanta.waves.min.js"  ]
           },
           "configurations": {
             "production": {

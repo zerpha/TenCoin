@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Options</h1>
+    <p>Change variables inside the blockchain for testing purposes.</p>
+  
+    <br>
+  
+    <div class="form-group">
+      <label for="difficulty">Difficulty</label>
+      <input type="number" class="form-control" id="difficulty" aria-describedby="difficultyHelp" [(ngModel)]="blockchain.difficulty">
+      <small id="difficultyHelp" class="form-text text-muted">
+          Difficulty is the time it takes to mine a block. The higher the number the slower the process.
+      </small>
+    </div>
+  
+    <br>
+  
+    <div class="form-group">
+      <label for="miningReward">Mining reward</label>
+      <input type="number" class="form-control" id="miningReward" aria-describedby="miningRewardHelp" [(ngModel)]="blockchain.miningReward">
+      <small id="miningRewardHelp" class="form-text text-muted">
+          How many coins received for successfully creating a new block for the chain.
+      </small>
+    </div>
+  </div>
+  
